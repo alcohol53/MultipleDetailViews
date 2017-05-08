@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jDy-QY-c85">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="MRg-mp-jUG">
+            <objects>
+                <navigationController id="jDy-QY-c85" sceneMemberID="viewController">
+                    <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="uTR-iG-rAa">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zlC-fz-8tY" kind="relationship" relationship="rootViewController" id="CPk-KP-8pW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61t-Vk-LsZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="-994"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="cEX-Vv-L3p">
+            <objects>
+                <viewController title="Detail" id="zlC-fz-8tY" customClass="ViewController2" customModule="DrillMaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ysi-lY-yui"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sw4-ki-rbz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rp9-rn-9w0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VC2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSp-Uj-eGe">
+                                <rect key="frame" x="93.5" y="273.5" width="188.5" height="119.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zSp-Uj-eGe" firstAttribute="centerY" secondItem="Rp9-rn-9w0" secondAttribute="centerY" id="Zdw-9K-B7o"/>
+                            <constraint firstItem="zSp-Uj-eGe" firstAttribute="centerX" secondItem="Rp9-rn-9w0" secondAttribute="centerX" id="sUp-nh-9on"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Detail" id="l2v-jk-J2D">
+                        <barButtonItem key="rightBarButtonItem" title="Menu" id="tYf-eK-R3D">
+                            <connections>
+                                <segue destination="GoM-5H-3ur" kind="popoverPresentation" popoverAnchorBarButtonItem="tYf-eK-R3D" id="bS3-Ci-3Go">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oxc-la-zAh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302" y="-994"/>
+        </scene>
+        <!--UINavigationController-WEE-Br-ksI-->
+        <scene sceneID="qMM-kZ-Orm">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="UINavigationController-WEE-Br-ksI" storyboardName="Routing" referencedIdentifier="UINavigationController-WEE-Br-ksI" id="GoM-5H-3ur" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="puU-Wd-7mx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3215" y="-992"/>
+        </scene>
+    </scenes>
+</document>

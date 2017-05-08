@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05408DF31EBF051300A2E3EF /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05408DF21EBF051300A2E3EF /* Protocols.swift */; };
+		0543E4A61EBB17CB00F1283C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0543E4A41EBB17CB00F1283C /* Main.storyboard */; };
+		0543E4A81EBB2D2000F1283C /* RoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0543E4A71EBB2D2000F1283C /* RoutingViewController.swift */; };
+		054EAA531EBC7D90008B1AC5 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EAA521EBC7D90008B1AC5 /* ViewController3.swift */; };
+		057DABC61EBB02A900765459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057DABC51EBB02A900765459 /* AppDelegate.swift */; };
+		057DABCE1EBB02A900765459 /* DrillMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 057DABCC1EBB02A900765459 /* DrillMaster.xcdatamodeld */; };
+		057DABD01EBB02A900765459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057DABCF1EBB02A900765459 /* Assets.xcassets */; };
+		057DABD31EBB02A900765459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057DABD11EBB02A900765459 /* LaunchScreen.storyboard */; };
+		057DABDE1EBB02A900765459 /* DrillMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057DABDD1EBB02A900765459 /* DrillMasterTests.swift */; };
+		057DABEB1EBB038500765459 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057DABEA1EBB038500765459 /* ViewController1.swift */; };
+		057DABED1EBB03AC00765459 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057DABEC1EBB03AC00765459 /* ViewController2.swift */; };
+		057DABEF1EBB060B00765459 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057DABEE1EBB060B00765459 /* MasterViewController.swift */; };
+		05A7DBC61EBDA40400D0AFDD /* ThirdScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7DBC51EBDA40400D0AFDD /* ThirdScreen.storyboard */; };
+		05A7DBC81EBDA44600D0AFDD /* SecondScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7DBC71EBDA44600D0AFDD /* SecondScreen.storyboard */; };
+		05A7DBCA1EBDA46900D0AFDD /* FirstScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7DBC91EBDA46900D0AFDD /* FirstScreen.storyboard */; };
+		05A7DBCD1EBDA4BD00D0AFDD /* Routing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A7DBCB1EBDA4BD00D0AFDD /* Routing.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		057DABDA1EBB02A900765459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 057DABBA1EBB02A800765459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 057DABC11EBB02A800765459;
+			remoteInfo = DrillMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05408DF21EBF051300A2E3EF /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Screens/Protocols.swift; sourceTree = "<group>"; };
+		0543E4A51EBB17CB00F1283C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0543E4A71EBB2D2000F1283C /* RoutingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingViewController.swift; sourceTree = "<group>"; };
+		054EAA521EBC7D90008B1AC5 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController3.swift; path = Screens/ViewController3.swift; sourceTree = "<group>"; };
+		057DABC21EBB02A900765459 /* DrillMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrillMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		057DABC51EBB02A900765459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		057DABCD1EBB02A900765459 /* DrillMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrillMaster.xcdatamodel; sourceTree = "<group>"; };
+		057DABCF1EBB02A900765459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		057DABD21EBB02A900765459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		057DABD41EBB02A900765459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057DABD91EBB02A900765459 /* DrillMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrillMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		057DABDD1EBB02A900765459 /* DrillMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillMasterTests.swift; sourceTree = "<group>"; };
+		057DABDF1EBB02A900765459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057DABEA1EBB038500765459 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController1.swift; path = Screens/ViewController1.swift; sourceTree = "<group>"; };
+		057DABEC1EBB03AC00765459 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = Screens/ViewController2.swift; sourceTree = "<group>"; };
+		057DABEE1EBB060B00765459 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		05A7DBC51EBDA40400D0AFDD /* ThirdScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ThirdScreen.storyboard; path = Screens/ThirdScreen.storyboard; sourceTree = "<group>"; };
+		05A7DBC71EBDA44600D0AFDD /* SecondScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SecondScreen.storyboard; path = Screens/SecondScreen.storyboard; sourceTree = "<group>"; };
+		05A7DBC91EBDA46900D0AFDD /* FirstScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FirstScreen.storyboard; path = Screens/FirstScreen.storyboard; sourceTree = "<group>"; };
+		05A7DBCC1EBDA4BD00D0AFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Routing.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		057DABBF1EBB02A800765459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057DABD61EBB02A900765459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057DABB91EBB02A800765459 = {
+			isa = PBXGroup;
+			children = (
+				057DABC41EBB02A900765459 /* DrillMaster */,
+				057DABDC1EBB02A900765459 /* DrillMasterTests */,
+				057DABC31EBB02A900765459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		057DABC31EBB02A900765459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				057DABC21EBB02A900765459 /* DrillMaster.app */,
+				057DABD91EBB02A900765459 /* DrillMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		057DABC41EBB02A900765459 /* DrillMaster */ = {
+			isa = PBXGroup;
+			children = (
+				0543E4A41EBB17CB00F1283C /* Main.storyboard */,
+				05A7DBCB1EBDA4BD00D0AFDD /* Routing.storyboard */,
+				057DABEE1EBB060B00765459 /* MasterViewController.swift */,
+				0543E4A71EBB2D2000F1283C /* RoutingViewController.swift */,
+				057DABE91EBB034C00765459 /* Screens */,
+				057DABC51EBB02A900765459 /* AppDelegate.swift */,
+				057DABE81EBB02C200765459 /* SupportingFiles */,
+			);
+			path = DrillMaster;
+			sourceTree = "<group>";
+		};
+		057DABDC1EBB02A900765459 /* DrillMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				057DABDD1EBB02A900765459 /* DrillMasterTests.swift */,
+				057DABDF1EBB02A900765459 /* Info.plist */,
+			);
+			path = DrillMasterTests;
+			sourceTree = "<group>";
+		};
+		057DABE81EBB02C200765459 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				057DABCF1EBB02A900765459 /* Assets.xcassets */,
+				057DABD11EBB02A900765459 /* LaunchScreen.storyboard */,
+				057DABD41EBB02A900765459 /* Info.plist */,
+				057DABCC1EBB02A900765459 /* DrillMaster.xcdatamodeld */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		057DABE91EBB034C00765459 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				05A7DBC91EBDA46900D0AFDD /* FirstScreen.storyboard */,
+				05A7DBC71EBDA44600D0AFDD /* SecondScreen.storyboard */,
+				05A7DBC51EBDA40400D0AFDD /* ThirdScreen.storyboard */,
+				057DABEA1EBB038500765459 /* ViewController1.swift */,
+				057DABEC1EBB03AC00765459 /* ViewController2.swift */,
+				054EAA521EBC7D90008B1AC5 /* ViewController3.swift */,
+				05408DF21EBF051300A2E3EF /* Protocols.swift */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		057DABC11EBB02A800765459 /* DrillMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057DABE21EBB02A900765459 /* Build configuration list for PBXNativeTarget "DrillMaster" */;
+			buildPhases = (
+				057DABBE1EBB02A800765459 /* Sources */,
+				057DABBF1EBB02A800765459 /* Frameworks */,
+				057DABC01EBB02A800765459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrillMaster;
+			productName = DrillMaster;
+			productReference = 057DABC21EBB02A900765459 /* DrillMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		057DABD81EBB02A900765459 /* DrillMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057DABE51EBB02A900765459 /* Build configuration list for PBXNativeTarget "DrillMasterTests" */;
+			buildPhases = (
+				057DABD51EBB02A900765459 /* Sources */,
+				057DABD61EBB02A900765459 /* Frameworks */,
+				057DABD71EBB02A900765459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				057DABDB1EBB02A900765459 /* PBXTargetDependency */,
+			);
+			name = DrillMasterTests;
+			productName = DrillMasterTests;
+			productReference = 057DABD91EBB02A900765459 /* DrillMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		057DABBA1EBB02A800765459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nikolay Zhukov";
+				TargetAttributes = {
+					057DABC11EBB02A800765459 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48FK53V266;
+						ProvisioningStyle = Automatic;
+					};
+					057DABD81EBB02A900765459 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48FK53V266;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 057DABC11EBB02A800765459;
+					};
+				};
+			};
+			buildConfigurationList = 057DABBD1EBB02A800765459 /* Build configuration list for PBXProject "DrillMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 057DABB91EBB02A800765459;
+			productRefGroup = 057DABC31EBB02A900765459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				057DABC11EBB02A800765459 /* DrillMaster */,
+				057DABD81EBB02A900765459 /* DrillMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		057DABC01EBB02A800765459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0543E4A61EBB17CB00F1283C /* Main.storyboard in Resources */,
+				05A7DBC61EBDA40400D0AFDD /* ThirdScreen.storyboard in Resources */,
+				05A7DBCD1EBDA4BD00D0AFDD /* Routing.storyboard in Resources */,
+				05A7DBCA1EBDA46900D0AFDD /* FirstScreen.storyboard in Resources */,
+				05A7DBC81EBDA44600D0AFDD /* SecondScreen.storyboard in Resources */,
+				057DABD31EBB02A900765459 /* LaunchScreen.storyboard in Resources */,
+				057DABD01EBB02A900765459 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057DABD71EBB02A900765459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		057DABBE1EBB02A800765459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057DABEF1EBB060B00765459 /* MasterViewController.swift in Sources */,
+				057DABEB1EBB038500765459 /* ViewController1.swift in Sources */,
+				05408DF31EBF051300A2E3EF /* Protocols.swift in Sources */,
+				057DABED1EBB03AC00765459 /* ViewController2.swift in Sources */,
+				0543E4A81EBB2D2000F1283C /* RoutingViewController.swift in Sources */,
+				057DABC61EBB02A900765459 /* AppDelegate.swift in Sources */,
+				054EAA531EBC7D90008B1AC5 /* ViewController3.swift in Sources */,
+				057DABCE1EBB02A900765459 /* DrillMaster.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057DABD51EBB02A900765459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057DABDE1EBB02A900765459 /* DrillMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		057DABDB1EBB02A900765459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 057DABC11EBB02A800765459 /* DrillMaster */;
+			targetProxy = 057DABDA1EBB02A900765459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0543E4A41EBB17CB00F1283C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0543E4A51EBB17CB00F1283C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		057DABD11EBB02A900765459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				057DABD21EBB02A900765459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		05A7DBCB1EBDA4BD00D0AFDD /* Routing.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A7DBCC1EBDA4BD00D0AFDD /* Base */,
+			);
+			name = Routing.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		057DABE01EBB02A900765459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		057DABE11EBB02A900765459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		057DABE31EBB02A900765459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48FK53V266;
+				INFOPLIST_FILE = DrillMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhukov.DrillMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		057DABE41EBB02A900765459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48FK53V266;
+				INFOPLIST_FILE = DrillMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhukov.DrillMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		057DABE61EBB02A900765459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48FK53V266;
+				INFOPLIST_FILE = DrillMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhukov.DrillMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrillMaster.app/DrillMaster";
+			};
+			name = Debug;
+		};
+		057DABE71EBB02A900765459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48FK53V266;
+				INFOPLIST_FILE = DrillMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhukov.DrillMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrillMaster.app/DrillMaster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		057DABBD1EBB02A800765459 /* Build configuration list for PBXProject "DrillMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057DABE01EBB02A900765459 /* Debug */,
+				057DABE11EBB02A900765459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		057DABE21EBB02A900765459 /* Build configuration list for PBXNativeTarget "DrillMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057DABE31EBB02A900765459 /* Debug */,
+				057DABE41EBB02A900765459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		057DABE51EBB02A900765459 /* Build configuration list for PBXNativeTarget "DrillMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057DABE61EBB02A900765459 /* Debug */,
+				057DABE71EBB02A900765459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		057DABCC1EBB02A900765459 /* DrillMaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				057DABCD1EBB02A900765459 /* DrillMaster.xcdatamodel */,
+			);
+			currentVersion = 057DABCD1EBB02A900765459 /* DrillMaster.xcdatamodel */;
+			path = DrillMaster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 057DABBA1EBB02A800765459 /* Project object */;
+}
